@@ -168,25 +168,26 @@ body {
   }
 
   .section {
-    &:nth-child(1) .banner-text{
+    #q01 .banner-text{
+      
       color: $clrQ1;
     }
-    &:nth-child(2) .banner-text{
+    #q02 .banner-text{
       color: $clrQ2;
     }
-    &:nth-child(3) .banner-text{
+    #q03  .banner-text{
       color: $clrQ3;
     }
-    &:nth-child(4) .banner-text{
+    #q04  .banner-text{
       color: $clrQ4;
     }
-    &:nth-child(5) .banner-text{
+    #q05  .banner-text{
       color: $clrQ5;
     }
-    &:nth-child(6) .banner-text{
+    #q06 .banner-text{
       color: $clrQ6;
     }
-    &:nth-child(7) .banner-text{
+    #q07 .banner-text{
       color: $clrQ7;
     }
     .banner{
