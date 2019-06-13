@@ -15,6 +15,13 @@ Helvetica,
 Arial,
 sans-serif;
 
+$clrQ1: #72C2D8;
+$clrQ2: #f8b856;
+$clrQ3: #ba79b1;
+$clrQ4: #ff9999;
+$clrQ5: #a39a93;
+$clrQ6: #5cad75;
+$clrQ7: #e98e69;
 
 body {
   background: #fafafa;
@@ -161,6 +168,27 @@ body {
   }
 
   .section {
+    &:nth-child(1) .banner-text{
+      color: $clrQ1;
+    }
+    &:nth-child(2) .banner-text{
+      color: $clrQ2;
+    }
+    &:nth-child(3) .banner-text{
+      color: $clrQ3;
+    }
+    &:nth-child(4) .banner-text{
+      color: $clrQ4;
+    }
+    &:nth-child(5) .banner-text{
+      color: $clrQ5;
+    }
+    &:nth-child(6) .banner-text{
+      color: $clrQ6;
+    }
+    &:nth-child(7) .banner-text{
+      color: $clrQ7;
+    }
     .banner{
       .image{
         width: 50%;
@@ -172,6 +200,7 @@ body {
       }
       .banner-text {
         width: 50%;
+       
       }
       .big-text {
         font-size: 40px;
