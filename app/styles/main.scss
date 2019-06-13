@@ -1,0 +1,202 @@
+$fontFam_uqReg: UniqloProRegular,
+"Helvetica Neue",
+Helvetica,
+Arial,
+sans-serif;
+
+$fontFam_uqBold: UniqloProBold,
+"Helvetica Neue",
+Helvetica,
+Arial,
+sans-serif;
+
+$fontFam_hel: "Helvetica Neue",
+Helvetica,
+Arial,
+sans-serif;
+
+
+body {
+  background: #fafafa;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  color: #333;
+}
+
+.hero-unit {
+  margin: 50px auto 0 auto;
+  width: 300px;
+  font-size: 18px;
+  font-weight: 200;
+  line-height: 30px;
+  background-color: #eee;
+  border-radius: 6px;
+  padding: 60px;
+
+  h1 {
+    font-size: 60px;
+    line-height: 1;
+    letter-spacing: -1px;
+  }
+}
+
+#holder {
+  max-width: 680px;
+  margin: 0 auto;
+}
+
+.content {
+  font-family: 'Helvetica Neue', Helvetica, Arial;
+  background-color: #fff;
+
+  p,
+  h1,
+  h2,
+  a,
+  button {
+    font-family: 'Helvetica Neue', Helvetica, Arial;
+    color: black;
+  }
+  a{
+    text-decoration: none;
+  }
+  img {
+    height: auto;
+    width: 100%;
+  }
+
+  p {
+    font-size: 14px;
+  }
+  button{
+    box-shadow: none;
+    margin-bottom: 15px;
+    border: none;
+    background-color: transparent;
+    padding: 20px 4%;
+    border-top: 2px solid rgb(218,218,218);
+    border-bottom: 2px solid rgb(218,218,218);
+    width: 100%;
+    font-weight: bold;
+    text-align: left;
+    position: relative;
+    &:after{
+      content:"";
+      position: absolute;
+      right: 4%;
+      top:45%;
+      display: inline-block;
+      width:10px;
+      height: 2px;
+      background-color: #000;
+      transform: rotate(45deg)
+    }
+    &:before{
+      content:"";
+      position: absolute;
+      right: 4%;
+      top:56%;
+      display: inline-block;
+      width:10px;
+      height: 2px;
+      background-color: #000;
+      transform: rotate(-45deg)
+    }
+  }
+  .default-padding {
+    padding: 0 4%;
+  }
+
+  .flex {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .flex-center {
+    justify-content: center;
+    align-content: center;
+  }
+
+  .bold {
+    font-weight: 700;
+  }
+
+  .intro-text {
+    text-align: center;
+    margin: 20px 0;
+    p{
+      margin-bottom: 20px;
+    }
+  }
+
+  .noted {
+    font-size: 12px;
+  }
+
+  .title {
+    font-size: 20px;
+    font-weight: 700;
+    text-align: left;
+    margin-bottom: 25px;
+    margin-top: 50px;
+    padding: 0 4%;
+
+  }
+
+  .anchors {
+    .anchor {
+      border: 1px solid rgb(218, 218, 218);
+      p{
+        text-align: center;
+        font-weight: 700;
+      }
+      img {
+        width: 25%;
+        height: 25%;
+      }
+
+      .anchor-text {
+        width: 75%;
+      }
+    }
+  }
+
+  .section {
+    .section-banner {
+      .banner-text {
+        width: 50%;
+      }
+      .big-text {
+        font-size: 40px;
+      }
+
+      .answer {
+        font-size: 22px;
+        font-weight: 700;
+      }
+    }
+    .section-text {
+      margin: 30px 0 25px;
+    }
+    .images .image {
+      width: 50%;
+    }
+    .clothing-icon{
+      width: 100%;
+      a{
+        width: 49.70%;
+        border: 1px solid rgb(218,218,218);
+        .image{
+          width: 40%;
+        }
+        p{
+          text-transform: uppercase;
+          font-weight: 700;
+          text-align: center;
+        }
+        .icon-text{
+          width: 60%;
+        }
+      }
+    }
+  }
+}
