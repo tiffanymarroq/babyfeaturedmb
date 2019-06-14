@@ -78,8 +78,9 @@
           <div class="default-padding flex flex-center">
             <h3 class="big-text">A:</h3>
             <p class="answer">A baby's skin is half as thick as an adult's.*</p>
+            <p>*The stratum corneum of newborn babies (up to one-month) has been found to be half as thick as an adult's
+            </p>
           </div>
-
         </div>
         <div class="image"><img src="https://image.uniqlo.com//UQ/ST3/us/imagesother/home/baby-sp-q1.jpg"
             alt="Q1 Banner Image"></div>
@@ -234,3 +235,17 @@
     <a href=""><button>Shop all Babies</button></a>
   </div>
 </div>
+
+<script>
+  $('a[href*="#"]').on('click', function (e) {
+    e.preventDefault()
+
+    $('html, body').animate({
+        scrollTop: $($(this).attr('href')).offset().top - 20,
+      },
+      1000,
+      'linear'
+    )
+  })
+
+</script>

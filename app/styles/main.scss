@@ -55,9 +55,10 @@ body {
   font-family: 'Helvetica Neue', Helvetica, Arial;
   background-color: #fff;
 
-  p{
+  p {
     font-family: 'Helvetica Neue', Helvetica, Arial;
   }
+
   h1,
   h2,
   a,
@@ -65,9 +66,11 @@ body {
     font-family: 'Helvetica Neue', Helvetica, Arial;
     color: black;
   }
-  a{
+
+  a {
     text-decoration: none;
   }
+
   img {
     height: auto;
     width: 100%;
@@ -76,41 +79,45 @@ body {
   p {
     font-size: 14px;
   }
-  button{
+
+  button {
     box-shadow: none;
     margin-bottom: 15px;
     border: none;
     background-color: transparent;
     padding: 20px 4%;
-    border-top: 2px solid rgb(218,218,218);
-    border-bottom: 2px solid rgb(218,218,218);
+    border-top: 2px solid rgb(218, 218, 218);
+    border-bottom: 2px solid rgb(218, 218, 218);
     width: 100%;
     font-weight: bold;
     text-align: left;
     position: relative;
-    &:after{
-      content:"";
+
+    &:after {
+      content: "";
       position: absolute;
       right: 4%;
-      top:45%;
+      top: 45%;
       display: inline-block;
-      width:10px;
+      width: 10px;
       height: 2px;
       background-color: #000;
       transform: rotate(45deg)
     }
-    &:before{
-      content:"";
+
+    &:before {
+      content: "";
       position: absolute;
       right: 4%;
-      top:56%;
+      top: 56%;
       display: inline-block;
-      width:10px;
+      width: 10px;
       height: 2px;
       background-color: #000;
       transform: rotate(-45deg)
     }
   }
+
   .default-padding {
     padding: 0 4%;
   }
@@ -132,7 +139,8 @@ body {
   .intro-text {
     text-align: center;
     margin: 20px 0;
-    p{
+
+    p {
       margin-bottom: 20px;
     }
   }
@@ -154,10 +162,12 @@ body {
   .anchors {
     .anchor {
       border: 1px solid rgb(218, 218, 218);
-      p{
+
+      p {
         text-align: center;
         font-weight: 700;
       }
+
       img {
         width: 25%;
         height: 25%;
@@ -171,61 +181,106 @@ body {
   }
 
   .section {
-    &#q01 .banner-text{
-      
+    &#q01 .banner-text {
       color: $clrQ1;
       background-color: $clrQ1;
+
+      .big-text {
+        color: $clrQ1;
+
+      }
     }
-    &#q02 .banner-text{
+
+    &#q02 .banner-text {
       color: $clrQ2;
       background-color: $clrQ2;
-      
+
+      .big-text {
+        color: $clrQ2;
+
+      }
+
     }
-    &#q03  .banner-text{
+
+    &#q03 .banner-text {
       color: $clrQ3;
       background-color: $clrQ3;
 
+      .big-text {
+        color: $clrQ3;
+
+      }
+
     }
-    &#q04  .banner-text{
+
+    &#q04 .banner-text {
       color: $clrQ4;
       background-color: $clrQ4;
 
+      .big-text {
+        color: $clrQ4;
+
+      }
+
     }
-    &#q05  .banner-text{
+
+    &#q05 .banner-text {
       color: $clrQ5;
       background-color: $clrQ5;
 
+      .big-text {
+        color: $clrQ5;
+
+      }
+
     }
-    &#q06 .banner-text{
+
+    &#q06 .banner-text {
       color: $clrQ6;
       background-color: $clrQ6;
 
+      .big-text {
+        color: $clrQ6;
+
+      }
+
     }
-    &#q07 .banner-text{
+
+    &#q07 .banner-text {
       color: $clrQ7;
       background-color: $clrQ7;
 
+      .big-text {
+        color: $clrQ7;
+
+      }
+
     }
-    .banner{
-      .image{
+
+    .banner {
+      .image {
         width: 50%;
       }
     }
+
     .section-banner {
-      .image{
+      .image {
         width: 50%;
       }
+
       .banner-text {
         width: 50%;
-        .default-padding{
+
+        .default-padding {
           padding: 0 7%;
           background-color: #fff;
           height: 95%;
         }
-       
+
       }
+
       .big-text {
-        font-size: 40px;
+        font-size: 55px;
         opacity: .6;
 
       }
@@ -233,28 +288,36 @@ body {
       .answer {
         font-size: 20px;
         font-weight: 700;
+        line-height: 1.7;
       }
     }
+
     .section-text {
       margin: 30px 0 25px;
     }
+
     .images .image {
       width: 50%;
     }
-    .clothing-icon{
+
+    .clothing-icon {
       width: 100%;
-      a{
+
+      a {
         width: 49.70%;
-        border: 1px solid rgb(218,218,218);
-        .image{
+        border: 1px solid rgb(218, 218, 218);
+
+        .image {
           width: 40%;
         }
-        p{
+
+        p {
           text-transform: uppercase;
           font-weight: 700;
           text-align: center;
         }
-        .icon-text{
+
+        .icon-text {
           width: 60%;
         }
       }

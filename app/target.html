@@ -33,7 +33,10 @@ body {
   background-color: #fff;
 }
 
-.content p,
+.content p {
+  font-family: 'Helvetica Neue', Helvetica, Arial;
+}
+
 .content h1,
 .content h2,
 .content a,
@@ -109,9 +112,6 @@ body {
 }
 
 .content .flex-center {
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
   -ms-flex-line-pack: center;
       align-content: center;
 }
@@ -158,19 +158,101 @@ body {
 
 .content .anchors .anchor .anchor-text {
   width: 75%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.content .section#q01 .banner-text {
+  color: #72C2D8;
+  background-color: #72C2D8;
+}
+
+.content .section#q01 .banner-text .big-text {
+  color: #72C2D8;
+}
+
+.content .section#q02 .banner-text {
+  color: #f8b856;
+  background-color: #f8b856;
+}
+
+.content .section#q02 .banner-text .big-text {
+  color: #f8b856;
+}
+
+.content .section#q03 .banner-text {
+  color: #ba79b1;
+  background-color: #ba79b1;
+}
+
+.content .section#q03 .banner-text .big-text {
+  color: #ba79b1;
+}
+
+.content .section#q04 .banner-text {
+  color: #ff9999;
+  background-color: #ff9999;
+}
+
+.content .section#q04 .banner-text .big-text {
+  color: #ff9999;
+}
+
+.content .section#q05 .banner-text {
+  color: #a39a93;
+  background-color: #a39a93;
+}
+
+.content .section#q05 .banner-text .big-text {
+  color: #a39a93;
+}
+
+.content .section#q06 .banner-text {
+  color: #5cad75;
+  background-color: #5cad75;
+}
+
+.content .section#q06 .banner-text .big-text {
+  color: #5cad75;
+}
+
+.content .section#q07 .banner-text {
+  color: #e98e69;
+  background-color: #e98e69;
+}
+
+.content .section#q07 .banner-text .big-text {
+  color: #e98e69;
+}
+
+.content .section .banner .image {
+  width: 50%;
+}
+
+.content .section .section-banner .image {
+  width: 50%;
 }
 
 .content .section .section-banner .banner-text {
   width: 50%;
 }
 
+.content .section .section-banner .banner-text .default-padding {
+  padding: 0 7%;
+  background-color: #fff;
+  height: 95%;
+}
+
 .content .section .section-banner .big-text {
-  font-size: 40px;
+  font-size: 55px;
+  opacity: .6;
 }
 
 .content .section .section-banner .answer {
-  font-size: 22px;
+  font-size: 20px;
   font-weight: 700;
+  line-height: 1.7;
 }
 
 .content .section .section-text {
@@ -213,8 +295,7 @@ body {
 <!-- inject:theHTML:html -->
 <div class="content">
   <div id="intro">
-    <img src="https://im.uniqlo.com/jp/spa/190510-19SS_BabyFirst_B_BabyFirst_sp_cover_1556775446944.jpg"
-      alt="Baby Cover Image" srcset="">
+    <img src="https://image.uniqlo.com//UQ/ST3/us/imagesother/home/baby-sp-header.jpg" alt="Baby Cover Image" srcset="">
   </div>
   <div class="intro-text default-padding">
     <p>Designed for your baby's every need.</p>
@@ -222,11 +303,11 @@ body {
       So we take care of everything, down to the tiniest detail, to bring your baby the finest clothing.
     </p>
     <p>We put your baby first, and select only the finest threads for our fabrics.</p>
-    <p>Seams that sit against the skin are sewn flat to ensure that your baby is comfortable*. Designed for 
-        easy changing and complete freedom of movement.
+    <p>Seams that sit against the skin are sewn flat to ensure that your baby is comfortable*. Designed for
+      easy changing and complete freedom of movement.
     </p>
     <p>We take care of everything, from choosing the materials to designing the garments. <br>
-    Always putting your baby first, every step of the way.</p>
+      Always putting your baby first, every step of the way.</p>
     <p>UNIQLO Baby</p>
     <p class="noted">*Underwear garments are sewn with flat seams.</p>
   </div>
@@ -288,312 +369,180 @@ body {
     <div id="q01" class="section">
       <h3 class="title">Q1: How thin is a baby's skin compared to an adult's?</h3>
       <div class="section-banner flex">
+        <div class="banner-text flex flex-center">
+          <div class="default-padding flex flex-center">
+            <h3 class="big-text">A:</h3>
+            <p class="answer">A baby's skin is half as thick as an adult's.*</p>
+            <p>*The stratum corneum of newborn babies (up to one-month) has been found to be half as thick as an adult's
+            </p>
+          </div>
+        </div>
+        <div class="image"><img src="https://image.uniqlo.com//UQ/ST3/us/imagesother/home/baby-sp-q1.jpg"
+            alt="Q1 Banner Image"></div>
+      </div>
+      <div class="section-banner flex">
         <div class="section-text default-padding">
           <p class="bold">Made with the finest 100% cotton.</p>
           <p>Our baby clothes are made from the finest-quality thread that's soft, pliable, and stretchy.
             <br> The perfect amount of softness for your baby's skin.</p>
         </div>
-        <div class="images flex">
-          <div class="image">
-            <img
-              src="https://im.uniqlo.com/jp/spa/190510-19SS_BabyFirst_B_BabyFirst_sp_model_q01-sub-01_1557217676484.jpg"
-              alt="Q1 Baby Image 1">
-          </div>
-          <div class="image">
-            <img
-              src="https://im.uniqlo.com/jp/spa/190510-19SS_BabyFirst_B_BabyFirst_sp_model_q01-sub-02_1557217676692.jpg"
-              alt="Q1 Baby Image 2">
-          </div>
-          <div class="image">
-            <img
-              src="https://im.uniqlo.com/jp/spa/190510-19SS_BabyFirst_B_BabyFirst_sp_model_q01-sub-03_1557217676868.jpg"
-              alt="Q1 Baby Image 3">
-          </div>
-        </div>
+
       </div>
-      <a href=""><button>View Products</button></a>
     </div>
     <div id="q02" class="section">
       <h3 class="title">Q2: Why do babies sweat a lot?</h3>
+      <div class="section-banner flex">
+        <div class="banner-text flex flex-center">
+          <div class="default-padding flex flex-center">
+            <h3 class="big-text">A:</h3>
+            <p class="answer">Babies tend to perspire a lot as their bodies change.</p>
+          </div>
+        </div>
+        <div class="image">
+          <img src="https://image.uniqlo.com//UQ/ST3/us/imagesother/home/baby-sp-q2.jpg" alt="Q2 Banner Image">
+        </div>
+      </div>
       <div class="section-text default-padding">
         <p class="bold">Mesh Fabric offers silky smooth comfort</p>
-        <p>They need clothes that keep them comfortable. <br> 
-            We've developed a soft mesh fabric of knitted double thread that wicks-away sweat and stays dry.</p>
+        <p>They need clothes that keep them comfortable. <br>
+          We've developed a soft mesh fabric of knitted double thread that wicks-away sweat and stays dry.</p>
       </div>
-      <div class="images flex">
-        <div class="image"><img
-            src="https://im.uniqlo.com/jp/spa/190510-19SS_BabyFirst_B_BabyFirst_sp_model_q02-sub-01_1557217677035.jpg"
-            alt="Q2 Baby Image"></div>
-        <div class="image"><img
-            src="https://im.uniqlo.com/jp/spa/190510-19SS_BabyFirst_B_BabyFirst_sp_model_q02-sub-02_1557217677212.jpg"
-            alt="Q2 Baby Image 2"></div>
-      </div>
-      <a href=""><button>View Products</button></a>
+
     </div>
     <div id="q03" class="section ">
       <h3 class="title">Q3: Why is a baby's skin so sensitive?</h3>
+      <div class="section-banner flex">
+        <div class="banner-text flex flex-center">
+          <div class="default-padding flex flex-center">
+            <h3 class="big-text">A:</h3>
+            <p class="answer">Babies are born with a protective skin barrier.</p>
+          </div>
+        </div>
+        <div class="image">
+          <img src="https://image.uniqlo.com//UQ/ST3/us/imagesother/home/baby-sp-q3.jpg" alt="Q3 Banner Image">
+        </div>
+      </div>
       <div class="section-text default-padding">
         <p class="bold">Flat seams are gentle on your baby's skin</p>
         <p>A baby's skin barrier is still developing so we created soft stitching to be gentle on their skin. <br>
-         Flat seams and differnt thread used inside and out ensure that only the softest materials touch your baby's
+          Flat seams and differnt thread used inside and out ensure that only the softest materials touch your baby's
           skin.</p>
       </div>
-      <div class="images flex">
-        <div class="image">
-          <img
-            src="https://im.uniqlo.com/jp/spa/190510-19SS_BabyFirst_B_BabyFirst_sp_model_q03-sub-01_1557217677380.jpg"
-            alt="Q3 Baby Image 1">
-        </div>
-        <div class="image">
-          <img
-            src="https://im.uniqlo.com/jp/spa/190510-19SS_BabyFirst_B_BabyFirst_sp_model_q03-sub-02_1557217677545.jpg"
-            alt="Q3 Baby Image 2">
-        </div>
-        <div class="image">
-          <img
-            src="https://im.uniqlo.com/jp/spa/190510-19SS_BabyFirst_B_BabyFirst_sp_model_q03-sub-03_1557217677714.jpg"
-            alt="Q3 Baby Image 3">
-        </div>
-      </div>
-      <a href=""><button>View Products</button></a>
+
     </div>
     <div id="q04" class="section">
       <h3 class="title">Q4: Why do babies fuss?</h3>
+      <div class="section-banner flex">
+        <div class="banner-text flex flex-center">
+          <div class="default-padding flex flex-center">
+            <h3 class="big-text">A:</h3>
+            <p class="answer">Babies may cry when being changed because of the clothes.</p>
+          </div>
+        </div>
+        <div class="image">
+          <img src="https://image.uniqlo.com//UQ/ST3/us/imagesother/home/baby-sp-q4.jpg" alt="Q4 Banner Image">
+        </div>
+      </div>
       <div class="section-text default-padding">
 
         <p class="bold">Open-front design for easy changing.</p>
         <p>Our open-front design has larger arm holes making it easier to put on and take off.</p>
         <p>This makes changing time quick and easy, relieving stress and strain</p>
       </div>
-      <div class="images flex">
-        <div class="image"><img
-            src="https://im.uniqlo.com/jp/spa/190510-19SS_BabyFirst_B_BabyFirst_sp_model_q04-sub-01_1557217677881.jpg"
-            alt="Q4 Baby Image 1"></div>
-        <div class="image"><img
-            src="https://im.uniqlo.com/jp/spa/190510-19SS_BabyFirst_B_BabyFirst_sp_model_q04-sub-02_1557217678059.jpg"
-            alt="Q4 Baby Image 2"></div>
-      </div>
-      <a href=""><button>View Products</button></a>
+
     </div>
-    <div id="q05" class="section">
+    <div id="q05" class="section flex">
       <h3 class="title">Q5: How can you make outfit changes easier?</h3>
+      <div class="section-banner flex">
+        <div class="banner-text flex flex-center">
+          <div class="default-padding flex flex-center">
+            <h3 class="big-text">A:</h3>
+            <p class="answer">Changing time causes a baby's temperature to change suddenly.</p>
+          </div>
+        </div>
+        <div class="image">
+          <img src="https://image.uniqlo.com//UQ/ST3/us/imagesother/home/baby-sp-q5.jpg" alt="Q5 Banner Image">
+        </div>
+      </div>
       <div class="section-text default-padding">
         <p class="bold">Quick and easy buttoning.</p>
         <p>Babies have a hard time regulating their body temperature. <br>
-        They longer you take to change them, the more defenseless they'll feel. <br>
-        We've added easy-to-match colored buttons to make buttoning up a breeze.</p>
+          They longer you take to change them, the more defenseless they'll feel. <br>
+          We've added easy-to-match colored buttons to make buttoning up a breeze.</p>
       </div>
-      <div class="images flex">
-        <div class="image"><img
-            src="https://im.uniqlo.com/jp/spa/190510-19SS_BabyFirst_B_BabyFirst_sp_model_q05-sub-01_1557217678228.jpg"
-            alt="Q5 Baby Image 1"></div>
-        <div class="image"><img
-            src="https://im.uniqlo.com/jp/spa/190510-19SS_BabyFirst_B_BabyFirst_sp_model_q05-sub-02_1557217678394.jpg"
-            alt="Q5 Baby Image 2"></div>
-      </div>
-      <a href=""><button>View Products</button></a>
+
     </div>
-    <div id="q06" class="section">
+    <div id="q06" class="section flex">
       <h3 class="title">Q6: Do babies hate outfit changes?</h3>
+      <div class="section-banner flex">
+        <div class="banner-text flex flex-center">
+          <div class="default-padding flex flex-center">
+            <h3 class="big-text">A:</h3>
+            <p class="answer">No baby wants to squeeze their head thorugh an ill-fitting garment.</p>
+          </div>
+        </div>
+        <div class="image">
+          <img src="https://image.uniqlo.com//UQ/ST3/us/imagesother/home/baby-sp-q6.jpg" alt="Q6 Banner Image">
+        </div>
+      </div>
       <div class="section-text default-padding">
         <p class="bold">Roomy neckline designed for easy changing.</p>
         <p>Even a minor irritation can be stressful for newbord babies. <br>
-            Each item of clothing is checked by hand to ensure there's plenty of room for your baby's head</p>
+          Each item of clothing is checked by hand to ensure there's plenty of room for your baby's head</p>
       </div>
-      <div class="images flex">
-        <div class="image"><img
-            src="https://im.uniqlo.com/jp/spa/190510-19SS_BabyFirst_B_BabyFirst_sp_model_q06-sub-01_1557217678562.jpg"
-            alt="Q6 Image 1"></div>
-        <div class="image"><img
-            src="https://im.uniqlo.com/jp/spa/190510-19SS_BabyFirst_B_BabyFirst_sp_model_q06-sub-02_1557217678727.jpg"
-            alt="Q6 Image 2"></div>
-      </div>
-      <a href=""><button>View Products</button></a>
+
     </div>
-    <div id="q07" class="section">
+    <div id="q07" class="section flex">
       <h3 class="title">Q7: What do babies need to develop?</h3>
+      <div class="section-banner flex">
+        <div class="banner-text flex flex-center">
+          <div class="default-padding flex flex-center">
+            <h3 class="big-text">A:</h3>
+            <p class="answer">No baby wants to squeeze their head thorugh an ill-fitting garment.</p>
+          </div>
+        </div>
+        <div class="image">
+          <img src="https://image.uniqlo.com//UQ/ST3/us/imagesother/home/baby-sp-q7.jpg" alt="Q6 Banner Image">
+        </div>
+      </div>
       <div class="section-text default-padding">
         <p class="bold">Stretchy fabric helps your baby sleep soundly.</p>
         <p>The stretch fabric doesn't hinder your baby's movements while sleeping
-            <br> The fabric is also breathable and wick-away sweat for a great night's sleep every time. </p>
+          <br> The fabric is also breathable and wick-away sweat for a great night's sleep every time. </p>
       </div>
-      <div class="images flex">
-        <div class="image"><img
-            src="https://im.uniqlo.com/jp/spa/190510-19SS_BabyFirst_B_BabyFirst_sp_model_q07-sub-01_1557217678897.jpg"
-            alt="Q7 Image 1"></div>
-        <div class="image"><img
-            src="https://im.uniqlo.com/jp/spa/190510-19SS_BabyFirst_B_BabyFirst_sp_model_q07-sub-02_1557217679060.jpg"
-            alt="Q7 Image 2"></div>
-      </div>
-      <a href=""><button>View Products</button></a>
+
     </div>
     <div class="section">
       <h3 class="title">Quality assured, up to the moment you put it on your baby.</h3>
       <div class="section-text default-padding">
         <p>Babies are born with a protective skin barrier that becomes weak against outside irritants.
-         <br> Chemicals, which can irritate the skin are carefully monitored from production to packing.
-         <br> Each item is manufactured in an environment created specifically for making baby goods and everything, 
-         from fabrics and dyes, to the desks and other furnishings we use, is thoroughly checked for chemicals.
-         <br> Our products are individually packaged, and quality is controlled from production up to the moment your baby puts them on.
+          <br> Chemicals, which can irritate the skin are carefully monitored from production to packing.
+          <br> Each item is manufactured in an environment created specifically for making baby goods and everything,
+          from fabrics and dyes, to the desks and other furnishings we use, is thoroughly checked for chemicals.
+          <br> Our products are individually packaged, and quality is controlled from production up to the moment your
+          baby puts them on.
         </p>
       </div>
-      <div class="images flex">
-        <div class="image"><img
-            src="https://im.uniqlo.com/jp/spa/190531-19SS_BabyFirst_B_BabyFirst_sp_model_q08-sub-03_sp_1558673482657.jpg"
-            alt="Baby Image"></div>
-        <div class="image"><img
-            src="https://im.uniqlo.com/jp/spa/190510-19SS_BabyFirst_B_BabyFirst_sp_model_q08-sub-01_1557217679227.jpg"
-            alt="Baby Image"></div>
-        <div class="image"><img
-            src="https://im.uniqlo.com/jp/spa/190510-19SS_BabyFirst_B_BabyFirst_sp_model_q08-sub-02_1557217679394.jpg"
-            alt="Baby Image"></div>
-      </div>
-    </div>
-    <div class="section">
-      <h3 class="title">Baby products by category</h3>
-      <div class="image clothing-icon flex">
-        <a href="" class="flex">
-          <div class="image">
-            <img
-              src="https://im.uniqlo.com/images/jp/pc/img/feature/uq/lineup/baby/190510-19SS_BabyFirst_B_BabyFirst_pc_img_category-01.jpg"
-              alt="Wrap Vests & Combi Wrap Vests">
-          </div>
-          <div class="flex flex-center icon-text">
-            <p>Wrap Vests + Combi Wrap Vests</p>
-          </div>
-        </a>
-        <a href="" class="flex">
-          <div class="image">
-            <img
-              src="https://im.uniqlo.com/images/jp/pc/img/feature/uq/lineup/baby/190510-19SS_BabyFirst_B_BabyFirst_pc_img_category-02.jpg"
-              alt="Swadding Blankets">
-          </div>
 
-          <div class="flex flex-center icon-text">
-            <p>Swaddling Blankets</p>
-          </div>
-        </a>
-        <a href="" class="flex">
-          <div class="image">
-
-            <img
-              src="https://im.uniqlo.com/images/jp/pc/img/feature/uq/lineup/baby/190510-19SS_BabyFirst_B_BabyFirst_pc_img_category-03.jpg"
-              alt="Baby Bodysuits">
-          </div>
-
-          <div class="flex flex-center icon-text">
-            <p>Baby Bodysuits</p>
-          </div>
-        </a>
-        <a href="" class="flex">
-          <div class="image">
-
-            <img
-              src="https://im.uniqlo.com/images/jp/pc/img/feature/uq/lineup/baby/190510-19SS_BabyFirst_B_BabyFirst_pc_img_category-04.jpg"
-              alt="Bibs">
-          </div>
-
-          <div class="flex flex-center icon-text">
-            <p>Bibs</p>
-          </div>
-        </a>
-        <a href="" class="flex">
-          <div class="image">
-            <img
-              src="https://im.uniqlo.com/images/jp/pc/img/feature/uq/lineup/baby/190510-19SS_BabyFirst_B_BabyFirst_pc_img_category-05.jpg"
-              alt="Rompers">
-          </div>
-
-          <div class="flex flex-center icon-text">
-            <p>Rompers</p>
-          </div>
-        </a>
-        <a href="" class="flex">
-          <div class="image">
-
-            <img
-              src="https://im.uniqlo.com/images/jp/pc/img/feature/uq/lineup/baby/190510-19SS_BabyFirst_B_BabyFirst_pc_img_category-06.jpg"
-              alt="One Piece Outfits">
-          </div>
-
-          <div class="flex flex-center icon-text">
-            <p>One Piece Outfits</p>
-          </div>
-        </a>
-        <a href="" class="flex">
-          <div class="image">
-
-            <img
-              src="https://im.uniqlo.com/images/jp/pc/img/feature/uq/lineup/baby/190510-19SS_BabyFirst_B_BabyFirst_pc_img_category-07.jpg"
-              alt="Tops and Dresses">
-          </div>
-
-          <div class="flex flex-center icon-text">
-            <p>Tops + Dresses</p>
-          </div>
-        </a>
-        <a href="" class="flex">
-          <div class="image">
-
-            <img
-              src="https://im.uniqlo.com/images/jp/pc/img/feature/uq/lineup/baby/190510-19SS_BabyFirst_B_BabyFirst_pc_img_category-08.jpg"
-              alt="Leggings">
-          </div>
-          <div class="flex flex-center icon-text">
-            <p>Leggings</p>
-          </div>
-        </a>
-        <a href="" class="flex">
-          <div class="image">
-
-            <img
-              src="https://im.uniqlo.com/images/jp/pc/img/feature/uq/lineup/baby/190510-19SS_BabyFirst_B_BabyFirst_pc_img_category-09.jpg"
-              alt="Bottoms">
-          </div>
-          <div class="flex flex-center icon-text">
-            <p>Bottoms</p>
-          </div>
-        </a>
-        <a href="" class="flex">
-          <div class="image">
-
-            <img
-              src="https://im.uniqlo.com/images/jp/pc/img/feature/uq/lineup/baby/190510-19SS_BabyFirst_B_BabyFirst_pc_img_category-10.jpg"
-              alt="Innerwear">
-          </div>
-          <div class="flex flex-center icon-text">
-            <p>Innerwear</p>
-          </div>
-        </a>
-        <a href="" class="flex">
-          <div class="image">
-
-            <img
-              src="https://im.uniqlo.com/images/jp/pc/img/feature/uq/lineup/baby/190510-19SS_BabyFirst_B_BabyFirst_pc_img_category-11.jpg"
-              alt="Loungewear and Pajamas">
-          </div>
-          <div class="flex flex-center icon-text">
-            <p>Loungewear + Pajamas</p>
-          </div>
-        </a>
-        <a href="" class="flex">
-          <div class="image">
-
-            <img
-              src="https://im.uniqlo.com/images/jp/pc/img/feature/uq/lineup/baby/190510-19SS_BabyFirst_B_BabyFirst_pc_img_category-12.jpg"
-              alt="Socks">
-          </div>
-          <div class="flex flex-center icon-text">
-            <p>Socks</p>
-          </div>
-        </a>
-      </div>
     </div>
 
-    <h3 class="title">View related pages</h3>
-    <a href=""><button>"What you need for your new arrival" feature</button></a>
-    <a href=""><button>BABIES Homepage</button></a>
+
+    <a href=""><button>Shop all Babies</button></a>
   </div>
 </div>
+
+<script>
+  $('a[href*="#"]').on('click', function (e) {
+    e.preventDefault()
+
+    $('html, body').animate({
+        scrollTop: $($(this).attr('href')).offset().top - 20,
+      },
+      1000,
+      'linear'
+    )
+  })
+
+</script>
 
 <!-- endHTMLinject -->
