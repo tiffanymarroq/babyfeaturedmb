@@ -55,7 +55,9 @@ body {
   font-family: 'Helvetica Neue', Helvetica, Arial;
   background-color: #fff;
 
-  p,
+  p{
+    font-family: 'Helvetica Neue', Helvetica, Arial;
+  }
   h1,
   h2,
   a,
@@ -119,7 +121,7 @@ body {
   }
 
   .flex-center {
-    justify-content: center;
+    // justify-content: center;
     align-content: center;
   }
 
@@ -163,32 +165,46 @@ body {
 
       .anchor-text {
         width: 75%;
+        justify-content: center;
       }
     }
   }
 
   .section {
-    #q01 .banner-text{
+    &#q01 .banner-text{
       
       color: $clrQ1;
+      background-color: $clrQ1;
     }
-    #q02 .banner-text{
+    &#q02 .banner-text{
       color: $clrQ2;
+      background-color: $clrQ2;
+      
     }
-    #q03  .banner-text{
+    &#q03  .banner-text{
       color: $clrQ3;
+      background-color: $clrQ3;
+
     }
-    #q04  .banner-text{
+    &#q04  .banner-text{
       color: $clrQ4;
+      background-color: $clrQ4;
+
     }
-    #q05  .banner-text{
+    &#q05  .banner-text{
       color: $clrQ5;
+      background-color: $clrQ5;
+
     }
-    #q06 .banner-text{
+    &#q06 .banner-text{
       color: $clrQ6;
+      background-color: $clrQ6;
+
     }
-    #q07 .banner-text{
+    &#q07 .banner-text{
       color: $clrQ7;
+      background-color: $clrQ7;
+
     }
     .banner{
       .image{
@@ -201,14 +217,21 @@ body {
       }
       .banner-text {
         width: 50%;
+        .default-padding{
+          padding: 0 7%;
+          background-color: #fff;
+          height: 95%;
+        }
        
       }
       .big-text {
         font-size: 40px;
+        opacity: .6;
+
       }
 
       .answer {
-        font-size: 22px;
+        font-size: 20px;
         font-weight: 700;
       }
     }
